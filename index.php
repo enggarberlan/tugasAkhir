@@ -1,1 +1,1 @@
-<?php include_once("finale.html"); ?>
+<?php include_once("home.html"); ?>
