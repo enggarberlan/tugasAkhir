@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: cornflowerblue;
+}
+/* MODAL */
+.tombol{
+    position: relative;
+    padding: 18px 35px;
+    background: white;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(100, 0, 0);
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.tombol:hover{
+    letter-spacing: 4px;
+}
+#popup{
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    background: rgb(255, 255, 255);
+    width: 600px;
+    padding: 80px 50px 50px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    transition: 0.5s;
+    visibility: hidden;
+}
+#popup.active{
+    visibility: visible;
+    top: 50%;
+}
+#popup .isi{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#popup .isi img{
+    max-width: 80px;
+}
+#popup .isi h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin: 20px 0 10px;
+}
+#popup .isi p{
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+#popup .isi .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#popup .isi .inputBox input{
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 15px;
+    outline: none;
+    font-size: 18px;
+}
+#popup .isi .inputBox input[type="submit"]{
+    max-width: 150px;
+    background: #770000;
+    color: #fff;
+    border: none;
+}
+.close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}

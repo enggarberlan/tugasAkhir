@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <title>Document</title>
+</head>
+<body>
+    <a class="tombol" onclick="popupToggle();">Stay Updates</a>
+    <div id="popup">
+        <div class="isi">
+            <img src="icon/news2.png">
+            <h2>Join our Newsletter!</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <div class="inputBox">
+                <input type="email" placeholder="Enter Email">
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Sign Up" class="tombol">
+            </div>
+        </div>
+        <a class="close" onclick="popupToggle();"><img src="icon/close2.png"></a>
+    </div>
+    <script>
+        function popupToggle() {
+            const popup = document.getElementById('popup');
+            popup.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>

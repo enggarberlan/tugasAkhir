@@ -1,0 +1,1010 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+}
+.container{
+    width: 80%;
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+.container:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+/* cFooter */
+.cFooter{
+    width: 80%;
+    padding: 10px 0px;
+    margin: 0px auto;
+}
+.cFooter:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+.cFooter ul li{
+    display: inline-block;
+    justify-content: center;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+header{
+    background-color: rgb(252, 252, 252);
+}
+header img{
+    float: left;
+    display: inline-block;
+    width: 6%;
+    margin-right: 12px;
+    padding: 4px 0;
+}
+header h1{
+    float: left;
+    padding: 10px 0;
+    color: rgb(3, 31, 73);
+    font-size: 38px;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 22px 15px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color:  rgb(187, 2, 2);
+    color: #fff;
+    transition: 0.5s;
+}
+.active{
+    background-color:  rgb(187, 2, 2);
+    color: #fff;
+}
+.banner{
+    height: 60vh;
+    background-image: url('icon/jasa1.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(73, 3, 3, 0.6); 
+}
+.banner h2{
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+
+/* BANNER KONTAK */
+.gambar1{
+    height: 60vh;
+    background-image: url('icon/jasa11.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gambar1:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(73, 3, 3, 0.6); 
+}
+.gambar1 h2{
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+
+.gambar2{
+    height: 60vh;
+    background-image: url('icon/jasa14.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gambar2:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(73, 3, 3, 0.6); 
+}
+.gambar2 h2{
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+
+/* BANNER COVID */
+.gambar3{
+    height: 60vh;
+    background-image: url('icon/jasa9.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gambar3:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(73, 3, 3, 0.6); 
+}
+.gambar3 h2{
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+
+/* BANNER TENTANG */
+.gambar4{
+    height: 60vh;
+    background-image: url('icon/jasa7.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gambar4:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(73, 3, 3, 0.6); 
+}
+.gambar4 h2{
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+
+/* BANNER PELAYANAN */
+.gambar5{
+    height: 60vh;
+    background-image: url('icon/gambar4.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gambar5:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(73, 3, 3, 0.6); 
+}
+.gambar5 h2{
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+
+
+
+section{
+    padding: 20px 0;
+}
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(3, 31, 73);
+    margin-bottom: 20px;
+}
+.about,
+.service{
+    padding-bottom: 100px;
+}
+.about p{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.pelayanan{
+    background-color: #ffffff;
+}
+
+/* BOX */
+.box {
+    color: rgb(3, 31, 73);
+}
+.box:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.box .col-4{
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.box1 {
+    color: rgb(3, 31, 73);
+}
+.box1:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.box1 .col-4{
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.icon{
+    width: 90px;
+    height: 90px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 95px;
+    font-size: 50px;
+    margin: 0 auto;
+}
+.box .col-4 h4{
+    margin: 10px 0;
+}
+.box1 .col-4 h4{
+    margin: 10px 0;
+}
+footer{
+    padding: 30px 0;
+    background-color: rgb(70, 0, 0);
+    text-align: center;
+    color: #fff;
+}
+.bg-loader{
+    background-color: #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-loader .loader{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    border-top-color: rgb(70, 0, 0);
+    border-right-color: rgb(70, 0, 0);
+    border-bottom-color: rgb(70, 0, 0);
+    animation: putar .8s linear infinite;
+}
+
+
+/* SUBMENU1 */
+.sub-menu-1{
+    display: none;
+}
+nav ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    color: #578ed6;
+    margin-top: 1px;
+    margin-left: -60px;
+}
+nav ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+nav ul li:hover .sub-menu-1 ul li{
+    width: 250px;
+    padding: 10px;
+    border-bottom: none;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+nav ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+/* SUBMENU2 */
+.sub-menu-2{
+    display: none;
+}
+nav ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    color: #578ed6;
+    margin-top: 1px;
+    margin-left: -90px;
+}
+nav ul li:hover .sub-menu-2 ul{
+    display: block;
+    margin: 10px;
+}
+nav ul li:hover .sub-menu-2 ul li{
+    width: 300px;
+    padding: 10px;
+    border-bottom: none;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+nav ul li:hover .sub-menu-2 ul li:last-child{
+    border-bottom: none;
+}
+
+/* SUBMENU3 */
+.sub-menu-3{
+    display: none;
+}
+nav ul li:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    color: #578ed6;
+    margin-top: 1px;
+    margin-left: -110px;
+}
+nav ul li:hover .sub-menu-3 ul{
+    display: block;
+    margin: 10px;
+}
+nav ul li:hover .sub-menu-3 ul li{
+    width: 450px;
+    padding: 10px;
+    border-bottom: none;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+nav ul li:hover .sub-menu-3 ul li:last-child{
+    border-bottom: none;
+}
+
+/* SUBMENU4 */
+.sub-menu-4{
+    display: none;
+}
+nav ul li:hover .sub-menu-4{
+    display: block;
+    position: absolute;
+    color: #578ed6;
+    margin-top: 1px;
+    margin-left: -90px;
+}
+nav ul li:hover .sub-menu-4 ul{
+    display: block;
+    margin: 10px;
+}
+nav ul li:hover .sub-menu-4 ul li{
+    width: 310px;
+    padding: 10px;
+    border-bottom: none;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+nav ul li:hover .sub-menu-4 ul li:last-child{
+    border-bottom: none;
+}
+
+@keyframes putar{
+    100% {
+        transform: rotate(360deg)
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 95%;
+    }
+    header h1{
+        text-align: center;
+        float: none;
+    }
+    header ul{
+        text-align: center;
+        float: none;
+    }
+    header img{
+        display: flex;
+        padding: 0 auto;
+    }
+}
+.label{
+    background-color: rgb(3, 31, 73);
+    color: #fff;
+}
+
+/* PINDAHAN CARD */
+.container1{
+    position: relative;
+    width: 1150px 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container1 .card{
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0, .2);
+    transition: 0.5s;
+    box-shadow: 0px 5px 20px #808080;
+}
+.container1:hover .card{
+    filter: blur(2px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+.container1 .card:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+.container1 .card .circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(160px at center 0);
+    text-align: center;
+}
+.container1 .card .circle h2{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 50px 0;
+}
+.container1 .card .content{
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.container1 .card .content p{
+    color: #666;
+}
+.container1 .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.container1 .card:nth-child(1) .circle,
+.container1 .card:nth-child(1) .content a{
+    background: #ffaf00;
+}
+.container1 .card:nth-child(2) .circle,
+.container1 .card:nth-child(2) .content a{
+    background: #da2260;
+}
+.container1 .card:nth-child(2) .circle,
+.container1 .card:nth-child(2) .content a{
+    background: #003c8b;
+}
+
+/* PINDAHAN CARD HOME */
+.container3{
+    position: relative;
+    width: 1150px 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container3 .card{
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0, .2);
+    transition: 0.5s;
+    box-shadow: 0px 5px 20px #808080;
+}
+.container3:hover .card{
+    filter: blur(2px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+.container3 .card:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+.container3 .card .circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #720000;
+    clip-path: circle(160px at center 0);
+    text-align: center;
+}
+.container3 .card .circle h2{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 50px 0;
+}
+.container3 .card .content{
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.container3 .card .content p{
+    color: #666;
+}
+.container3 .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #720000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.container3 .card:nth-child(1) .circle,
+.container3 .card:nth-child(1) .content a{
+    background: #720000;
+}
+.container3 .card:nth-child(2) .circle,
+.container3 .card:nth-child(2) .content a{
+    background: #720000;
+}
+.container3 .card:nth-child(2) .circle,
+.container3 .card:nth-child(2) .content a{
+    background: #720000;
+}
+h3{
+    text-align: center;
+    padding: 30px 60px;
+    color: rgb(3, 31, 73);
+    margin-bottom: -30px;
+}
+/* ENDING PINDAHAN CARD */
+
+/* MODAL */
+#tombol2{
+    position: relative;
+    padding: 18px 35px;
+    background: rgb(75, 0, 0);
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin: 20px 560px;
+    z-index: 10;
+}
+#tombol2:hover{
+    letter-spacing: 4px;
+}
+.tombol{
+    position: relative;
+    padding: 18px 35px;
+    background: rgb(75, 0, 0);
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin: 0px 560px;
+}
+.tombol:hover{
+    letter-spacing: 4px;
+}
+#popup{
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    background: rgb(255, 255, 255);
+    width: 600px;
+    padding: 80px 50px 50px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    transition: 0.5s;
+    visibility: hidden;
+}
+#popup.active{
+    visibility: visible;
+    top: 50%;
+}
+#popup .isi{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#popup .isi img{
+    max-width: 80px;
+}
+#popup .isi h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin: 20px 0 10px;
+}
+#popup .isi p{
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+#popup .isi .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#popup .isi .inputBox input{
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 15px;
+    outline: none;
+    font-size: 18px;
+}
+#popup .isi .inputBox input[type="submit"]{
+    max-width: 150px;
+    background: #770000;
+    color: #fff;
+    border: none;
+}
+.close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+
+/* GALERI FOTO */
+input{
+    /* display: none; */
+}
+.container2{
+    width: 100%;
+    text-align: center;
+}
+.container2 h1{
+    font-weight: normal;
+    font-size: 35px;
+    position: relative;
+    margin: 40px 0;
+}
+.container2 h1::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 4s linear infinite;
+}
+.container2 h2{
+    font-weight: normal;
+    font-size: 35px;
+    position: relative;
+    margin: 40px 0;
+}
+.container2 h2::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 4s linear infinite;
+}
+@keyframes animate{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+.top-content{
+    background-color: rgb(99, 1, 1);
+    width: 90%;
+    margin: 10px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px lightgray;
+}
+.container2 .top-content h3{
+    height: 100%;
+    background-color: rgb(228, 225, 225);
+    padding: 20px 50px;
+    color: rgb(3, 31, 73);
+    border-radius: 6px;
+    margin: 10px;
+    margin-left: -2px;
+}
+label{
+    display: inline-block;
+    height: 100%;
+    margin: 0 20px;
+    line-height: 60px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: color .5s;
+}
+label:hover{
+    color: rgb(255, 238, 0);
+}
+.photo-gallery{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.pic{
+    position: relative;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px lightgray;
+    cursor: pointer;
+    transition: .5s;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: .5s;
+}
+.pic::before{
+    content: "Our Services";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s;
+    z-index: 1;
+}
+.pic:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 0;
+    background-color: rgba(0,0,0,.4);
+    transition: .3s;
+}
+.pic:hover::after{
+    height: 100%;
+}
+.pic:hover::before{
+    margin-top: 0;
+    opacity: 1;
+}
+#check1:checked ~ .container2 .photo-gallery .pic{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .5s;
+}
+#check2:checked ~ .container2 .photo-gallery .visitasi{
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+} 
+#check2:checked ~ .container2 .photo-gallery .padus1,
+#check2:checked ~ .container2 .photo-gallery .padus2,
+#check2:checked ~ .container2 .photo-gallery .muda{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0s;
+}
+#check3:checked ~ .container2 .photo-gallery .padus1{
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+} 
+#check3:checked ~ .container2 .photo-gallery .padus2,
+#check3:checked ~ .container2 .photo-gallery .muda,
+#check3:checked ~ .container2 .photo-gallery .visitasi{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0s;
+}
+#check4:checked ~ .container2 .photo-gallery .padus2{
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+} 
+#check4:checked ~ .container2 .photo-gallery .muda,
+#check4:checked ~ .container2 .photo-gallery .visitasi,
+#check4:checked ~ .container2 .photo-gallery .padus1{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0s;
+}
+#check5:checked ~ .container2 .photo-gallery .muda{
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+} 
+#check5:checked ~ .container2 .photo-gallery .visitasi,
+#check5:checked ~ .container2 .photo-gallery .padus1,
+#check5:checked ~ .container2 .photo-gallery .padus2{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0s;
+}
+
+/* OUR TEAM */
+.ourTeam{
+    overflow: hidden;
+    text-align: center;
+    padding: 60px;
+}
+.ourTeam h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: rgb(3, 31, 73);
+    font-size: 40px;
+}
+.batas{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    margin-bottom: 40px;
+}
+.ps{
+    margin-bottom: 40px;
+}
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.ps a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+.ps a:hover > img{
+    filter: none;
+}
+.sesi{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: rgb(3, 31, 73);
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+.sesi:target{
+    height: auto;
+}
+.nama{
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: rgb(3, 31, 73);
+    transition: 0.5s all;
+}

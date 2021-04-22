@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#aaabff, #fff);
+    font-family: 'Nunito', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #a1cfcb;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container5{
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-size: 3rem;
+    display: inline-block;
+}
+.container5 img{
+    float: left;
+    display: inline-block;
+    width: 10%;
+    margin-right: 12px;
+    padding: 4px 0;
+}
+.formTodo{
+    margin: 40px 0px;
+}
+.inputTodo{
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+/* FORMULIR */
+.formTodo{
+    margin: 40px 0px;
+}
+.inputTodo{
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+.tombolTambah{
+    background-color: #750000;
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.2rem;
+}
+.itemsTodo{
+    min-width: 350px;
+}
+.items{
+    background-color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.checkbox{
+    margin-right: 10px;
+}
+.tombolHapus{
+    float: right;
+    background-color: #ffe600;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+.checked{
+    text-decoration: line-through;
+}
+
+/* cFooter */
+.cFooter{
+    width: 80%;
+    padding: 10px 0px;
+    margin: 0px auto;
+}
+.cFooter:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+.cFooter ul li{
+    display: inline-block;
+    justify-content: center;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+footer{
+    padding: 30px 120px;
+    background-color: rgb(70, 0, 0);
+    text-align: center;
+    color: #fff;
+}
